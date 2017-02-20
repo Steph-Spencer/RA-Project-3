@@ -2,6 +2,7 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 import { HttpModule }    from '@angular/http';
+import { RouterModule }  from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -12,7 +13,7 @@ import { BannerComponent }  from './banner.component';
 import { FooterComponent }   from './footer.component';
 import { ShopComponent }  from './shop.component';
 import { JournalComponent } from './journal.component';
-import { JournalService } from './journal-service';
+import { JournalService } from './journal.service';
 import { AdventureComponent } from './adventure.component';
 import { NewblogComponent } from './newblog.component';
 
@@ -21,7 +22,7 @@ import { NewblogComponent } from './newblog.component';
         BrowserModule,
         FormsModule,
         HttpModule,
-        AppRoutingModule
+        RouterModule,
     ],
     declarations: [
         AppComponent,
@@ -33,9 +34,9 @@ import { NewblogComponent } from './newblog.component';
         JournalComponent,
         AdventureComponent,
         NewblogComponent,
-
+        AppRoutingModule,
     ],
-    providers: [ JournalService ],
-    bootstrap: [ AppComponent ]
+    providers: [JournalService],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

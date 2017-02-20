@@ -6,7 +6,7 @@ import { JournalService } from './journal.service';
 
 @Component({
     moduleId: module.id,
-    selector: 'app-journal',
+    selector: 'journal',
     templateUrl: './journal.component.html',
     styleUrls: ['./journal.component.css']
 })

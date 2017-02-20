@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    z-index: 17;
+    position: fixed;
+}
+
+.logo{
+    background-image: url("./images/logos/inhabitent-logo-tent-white.svg");
+    background-size: contain;
+    min-height: 6vh;
+    width:7vh;
+    margin:1vh 4vh;
+}
+ul{
+    margin:1vh 4vh;
+}
+#nav li {
+    position: center;
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 1vh;
+    color:white;
+    width: 45%;
+}

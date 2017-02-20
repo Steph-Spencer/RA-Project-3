@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
+var router_1 = require('@angular/router');
 var app_routing_module_1 = require('./app-routing.module');
 var app_component_1 = require('./app.component');
 var app_content_component_1 = require('./app-content.component');
@@ -20,7 +21,7 @@ var banner_component_1 = require('./banner.component');
 var footer_component_1 = require('./footer.component');
 var shop_component_1 = require('./shop.component');
 var journal_component_1 = require('./journal.component');
-var journal_service_1 = require('./journal-service');
+var journal_service_1 = require('./journal.service');
 var adventure_component_1 = require('./adventure.component');
 var newblog_component_1 = require('./newblog.component');
 var AppModule = (function () {
@@ -32,7 +33,7 @@ var AppModule = (function () {
                 platform_browser_1.BrowserModule,
                 forms_1.FormsModule,
                 http_1.HttpModule,
-                app_routing_module_1.AppRoutingModule
+                router_1.RouterModule,
             ],
             declarations: [
                 app_component_1.AppComponent,
@@ -44,6 +45,7 @@ var AppModule = (function () {
                 journal_component_1.JournalComponent,
                 adventure_component_1.AdventureComponent,
                 newblog_component_1.NewblogComponent,
+                app_routing_module_1.AppRoutingModule,
             ],
             providers: [journal_service_1.JournalService],
             bootstrap: [app_component_1.AppComponent]
