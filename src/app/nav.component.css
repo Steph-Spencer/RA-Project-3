@@ -12,7 +12,7 @@
 }
 
 .logo{
-    background-image: url("./images/logos/inhabitent-logo-tent-white.svg");
+    background-image: url("../images/logos/inhabitent-logo-tent-white.svg");
     background-size: contain;
     min-height: 6vh;
     width:7vh;
