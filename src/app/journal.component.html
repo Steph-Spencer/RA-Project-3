@@ -1,6 +1,14 @@
 <div>
-    <h2>inhabitent journal</h2>
-    <div id="posts">
-        <-- carousel of blog posts generates dynamically here -->
+<h1>inhabitent journal</h1>
+<div class="owl-carousel owl-theme">
+    <div class="post" *ngFor = "let journal of journalEntries">
+        <img src={{journal.image}}>
+        <div class="border">
+            <p>{{journal.date}}</p>
+            <h2>{{journal.title}}</h2>
+            <button>read entry</button>
+        </div>
+
     </div>
+</div>
 </div>
