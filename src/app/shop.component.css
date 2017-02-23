@@ -4,6 +4,11 @@
     border: outset 1px;
 }
 
-.border{
-    border: #a1a1a1 solid 1px;
+shop .border{
+    border: 1px solid #a1a1a1;
+}
+
+.shopbox{
+    width: 25%;
+    border-top: 2px solid #a1a1a1;
 }

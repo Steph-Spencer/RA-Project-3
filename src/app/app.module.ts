@@ -23,6 +23,7 @@ import { NewblogComponent } from './newblog.component';
         FormsModule,
         HttpModule,
         RouterModule,
+        AppRoutingModule
     ],
     declarations: [
         AppComponent,
@@ -34,9 +35,10 @@ import { NewblogComponent } from './newblog.component';
         JournalComponent,
         AdventureComponent,
         NewblogComponent,
-        AppRoutingModule,
+
     ],
     providers: [JournalService],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
 })
+
 export class AppModule { }

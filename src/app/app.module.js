@@ -34,6 +34,7 @@ var AppModule = (function () {
                 forms_1.FormsModule,
                 http_1.HttpModule,
                 router_1.RouterModule,
+                app_routing_module_1.AppRoutingModule
             ],
             declarations: [
                 app_component_1.AppComponent,
@@ -45,10 +46,9 @@ var AppModule = (function () {
                 journal_component_1.JournalComponent,
                 adventure_component_1.AdventureComponent,
                 newblog_component_1.NewblogComponent,
-                app_routing_module_1.AppRoutingModule,
             ],
             providers: [journal_service_1.JournalService],
-            bootstrap: [app_component_1.AppComponent]
+            bootstrap: [app_component_1.AppComponent],
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);
