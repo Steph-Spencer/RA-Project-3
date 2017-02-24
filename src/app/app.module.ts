@@ -23,7 +23,7 @@ import { NewblogComponent } from './newblog.component';
         FormsModule,
         HttpModule,
         RouterModule,
-        AppRoutingModule
+        AppRoutingModule,
     ],
     declarations: [
         AppComponent,

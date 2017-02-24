@@ -34,7 +34,7 @@ var AppModule = (function () {
                 forms_1.FormsModule,
                 http_1.HttpModule,
                 router_1.RouterModule,
-                app_routing_module_1.AppRoutingModule
+                app_routing_module_1.AppRoutingModule,
             ],
             declarations: [
                 app_component_1.AppComponent,

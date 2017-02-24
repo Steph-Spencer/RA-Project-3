@@ -1,17 +1,17 @@
 import { Injectable } from '@angular/core';
 import { Headers, Http, RequestOptions } from '@angular/http';
-import 'rxjs/add/operator/toPromise'
+    import 'rxjs/add/operator/toPromise'
 
-// model data
-import { Journal } from './journal';
+    // model data
+    import { Journal } from './journal';
 
-@Injectable()
-export class JournalService {
+    @Injectable()
+    export class JournalService {
 
-    // last resort, not really configurable.
-    // private theURL = `http://portal.helloitscody.com/inhabitent/api/get/94a08da1fecbb6e8b46990538c7b50b2/?params=%5B%7B%22name%22:%22posts_per_page%22,%22value%22:%225%22%7D,%7B%22name%22:%22paged%22,%22value%22:%221%22%7D%5D`;
+        // last resort, not really configurable.
+        // private theURL = `http://portal.helloitscody.com/inhabitent/api/get/94a08da1fecbb6e8b46990538c7b50b2/?params=%5B%7B%22name%22:%22posts_per_page%22,%22value%22:%225%22%7D,%7B%22name%22:%22paged%22,%22value%22:%221%22%7D%5D`;
 
-    /* backup URL to use below */
+        /* backup URL to use below */
     // private journalUrl = 'http://localhost:4200/sample-journal-data.json';
 
     private baseAPIKey = `94a08da1fecbb6e8b46990538c7b50b2`;

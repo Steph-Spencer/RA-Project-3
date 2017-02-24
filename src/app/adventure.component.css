@@ -2,3 +2,30 @@
     color: #fff;
     border-color: #fff;
 }
+
+#canoe{
+    width: 50%;
+    background: url("../../images/adventure-photos/canoe-girl.jpg");
+    min-height: 30vh;
+}
+
+#beach{
+    width: 50%;
+    background: url("../../images/adventure-photos/beach-bonfire.jpg");
+    min-height: 15vh;
+}
+
+#mountain{
+    width: 25%;
+    background: url("../../images/adventure-photos/mountain-hikers.jpg");
+    min-height: 15vh;
+}
+
+#sky{
+#beach{
+    width: 25%;
+    background: url("../../images/adventure-photos/night-sky.jpg");
+    min-height: 15vh;
+}
+
+
