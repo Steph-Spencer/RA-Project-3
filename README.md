@@ -7,7 +7,6 @@ Users can also post new journal entries via an API.
 
 
 
- The app is currently broken due to errors related to routing that I have not succeeded in debugging and which prevents the components from loading.
- Because the components don't load I was unable to proceed with finishing connecting the service, fine-tune the styling, and adddress the remaining requirements.
- I did not deploy my app per Ed's instructions because I ran out of time and it seemed premature given the state of the project.
+ The app is currently broken due to errors related to routing that I have not succeeded in debugging, and which prevents the components from loading.
+ Because the components don't load I have not yet proceeded to finish connecting the service or fine-tune the styling.
  I am studying additional Angular 2 tutorials and will take another run at this project once I have filled in the gaps in my knowledge.
